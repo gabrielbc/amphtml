@@ -1,0 +1,13 @@
+{
+  "requests": {
+    "host": "https://localhost:8081/",
+    "baseSuffix": "&pageview_id=${pageViewId}&rand=${random}&aid=${aid}",
+    "pageview": "${host}${basePrefix}/page/track?url=${canonicalUrl}&referer=${documentReferrer}&content_created=${contentCreated}&content_author=${contentAuthor}&content_section=${contentSection}&timezone_offset=${timezone}&tags=${tags}&amp_url=${ampdocUrl}&screen=${screenWidth}x${screenHeight}${baseSuffix}"
+  },
+  "triggers": {
+    "defaultPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}

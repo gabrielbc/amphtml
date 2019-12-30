@@ -87,6 +87,7 @@ import {QUANTCAST_CONFIG} from './vendors/quantcast';
 import {RAKAM_CONFIG} from './vendors/rakam';
 import {REPPUBLIKA_CONFIG} from './vendors/reppublika';
 import {RETARGETLY_CONFIG} from './vendors/retargetly';
+import {ROCK_CONFIG} from './vendors/rock';
 import {SEGMENT_CONFIG} from './vendors/segment';
 import {SHINYSTAT_CONFIG} from './vendors/shinystat';
 import {SIMPLEREACH_CONFIG} from './vendors/simplereach';
@@ -250,6 +251,7 @@ export const ANALYTICS_CONFIG = ANALYTICS_VENDOR_SPLIT
       'retargetly': includeJsonLiteral(RETARGETLY_CONFIG),
       'rakam': includeJsonLiteral(RAKAM_CONFIG),
       'reppublika': includeJsonLiteral(REPPUBLIKA_CONFIG),
+      'rock': includeJsonLiteral(ROCK_CONFIG),
       'segment': includeJsonLiteral(SEGMENT_CONFIG),
       'shinystat': includeJsonLiteral(SHINYSTAT_CONFIG),
       'simplereach': includeJsonLiteral(SIMPLEREACH_CONFIG),
